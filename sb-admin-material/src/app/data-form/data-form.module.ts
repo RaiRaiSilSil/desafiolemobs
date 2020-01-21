@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgModule} from '@angular/core';
-import { DataFormComponent} from './data-from.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { DataFormComponent } from './data-form.component';
 
 @NgModule({
   declarations: [
-    DataFormsModule
+    DataFormComponent
   ],
   imports: [
     CommonModule,
